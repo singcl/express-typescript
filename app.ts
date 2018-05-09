@@ -1,4 +1,4 @@
-// /* tslint:disable no-reference */
+/* tslint:disable no-reference */
 ///<reference path='node/node.d.ts' />
 ///<reference path='node/express.d.ts' />
 
