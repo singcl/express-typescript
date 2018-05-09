@@ -23,6 +23,8 @@
   "homepage": "https://github.com/singcl/express-typescript#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
   }
 }
