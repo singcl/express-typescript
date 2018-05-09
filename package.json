@@ -1,0 +1,24 @@
+{
+  "name": "@singcl/express-ts",
+  "version": "0.0.1",
+  "description": "use typescript create nodejs app with express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singcl/express-typescript.git"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "singcl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singcl/express-typescript/issues"
+  },
+  "homepage": "https://github.com/singcl/express-typescript#readme"
+}
