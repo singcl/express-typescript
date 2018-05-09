@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/singcl/express-typescript/issues"
   },
-  "homepage": "https://github.com/singcl/express-typescript#readme"
+  "homepage": "https://github.com/singcl/express-typescript#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jade": "^1.11.0"
+  }
 }
