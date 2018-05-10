@@ -12,6 +12,7 @@ import http = require('http');
 import path = require('path');
 
 // 路由中间件
+import user = require('./api/user');
 import index = require('./routes/index');
 
 const app = express();
@@ -31,7 +32,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // 应用级路由
 app.get('/', index);
+app.get('/user', user);
 
-app.listen(3000, function() {
+// 启动服务器
+// OR app.listen() to start server
+http.createServer(app).listen(3000, function() {
     console.log('Success at port 3000');
 });
