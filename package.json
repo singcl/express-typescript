@@ -4,7 +4,8 @@
   "description": "use typescript create nodejs app with express.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e ts,json,jade,css --exec ts-node app.ts"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,10 @@
     "@types/node": "^10.0.6",
     "express": "^4.16.3",
     "jade": "^1.11.0",
+    "nodemon": "^1.17.4",
     "tslint": "^5.10.0",
-    "typescript": "^2.8.3"
-  }
+    "typescript": "^2.8.3",
+    "ts-node": "^6.0.3"
+  },
+  "devDependencies": {}
 }
