@@ -4,7 +4,7 @@ import express = require('express');
 import Handler = express.Handler;
 
 const home: Handler = (req, res, next) => {
-    res.render('index', { type: 'Express' });
+    res.render('index', { title: 'Express' });
 };
 
 export = home;
