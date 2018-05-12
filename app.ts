@@ -1,8 +1,8 @@
 /* tslint:disable no-reference only-arrow-functions*/
 // 手动方法引入node 和 express 的type definitions 文件
 // definitely typed
-/// <reference path='node/node.d.ts' />
-/// <reference path='node/express.d.ts' />
+/// <reference path='typings/node.d.ts' />
+/// <reference path='typings/express.d.ts' />
 
 // 或者安装相关@types 依赖以自动引入。 如@types/express @types/node
 // 就不需要上面的三斜线 XML 方式手动引入了。

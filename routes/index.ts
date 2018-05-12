@@ -1,4 +1,4 @@
-/// <reference path='../node/express.d.ts' />
+/// <reference path='../typings/express.d.ts' />
 
 import express = require('express');
 import Handler = express.Handler;
